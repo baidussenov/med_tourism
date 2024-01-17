@@ -1,0 +1,35 @@
+# Ignore the WordPress core files
+wp-config.php
+wp-content/
+
+# Ignore uploads directory
+wp-content/uploads/
+
+# Ignore themes and plugins that are installed via Composer
+vendor/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment configuration file
+.env
+
+# Ignore log files
+*.log
+
+# Ignore OS and text editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore compiled files
+*.min.css
+*.min.js
+
+# Ignore dependency directories
+/build/
+/dist/
+
+# Ignore local development configuration files
+wp-config-local.php
